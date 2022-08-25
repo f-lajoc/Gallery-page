@@ -27,7 +27,7 @@
    width: 100vw;
    text-align: center;
    overflow: hidden; 
-   background: linear-gradient(rgba(243,152,10,0.25), rgba(243,152,10,0.25)), url("../images/i.jpg");     
+   background: linear-gradient(rgba(243,152,10,0.25), rgba(243,152,10,0.25)), url("images/i.jpg");     
    background-size: cover; 
    background-repeat: no-repeat;
  }
@@ -126,11 +126,13 @@ padding-top: 3em;
 /* desktop layout */
 
   @media only screen and (min-width: 1024px){
-  img{
-    width: 22rem;
-  } 
+  .funmi_container {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+ }
+
   .funmi_gallery{
-    margin: 2em;
+    margin: 2rem;
   }
   
 .funmi_h1{
