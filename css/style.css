@@ -28,7 +28,7 @@
    text-align: center; 
    padding-top: 60px;
    overflow: hidden; 
-   background: linear-gradient(rgba(243,152,10,0.25), rgba(243,152,10,0.25)), url("/images/i.jpg");     
+   background: linear-gradient(rgba(243,152,10,0.25), rgba(243,152,10,0.25)), url("images/i.jpg");     
    background-size: cover; 
    background-repeat: no-repeat;
  }
