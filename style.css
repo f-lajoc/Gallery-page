@@ -1,0 +1,135 @@
+ :root{
+ /* NEUTRAL COLOR */
+ 
+   --white: #f8f8f8;
+    
+  /* PRIMARY COLOR */
+  --blue: #145ef4;
+  --black: #000000;
+  --yellow: yellow;
+ }
+ 
+ *{
+   padding:0;
+   margin: 0;
+ }
+ 
+ body{
+   background-color: var(--white);
+   font-weight: 600;
+   font-family: 'Montserrat', sans-serif;
+ }
+ 
+ /*hero image */
+ 
+ header{
+   height: 15em;
+   width: 100vw;
+   text-align: center; 
+   padding-top: 60px;
+   overflow: hidden; 
+   background: linear-gradient(rgba(243,152,10,0.25), rgba(243,152,10,0.25)), url("images/i.jpg");     
+   background-size: cover; 
+   background-repeat: no-repeat;
+ }
+
+/* images */ 
+
+.container{
+  display: grid;
+  gap: 5px;
+ }
+ 
+.gallery{
+  margin: 1.5em;
+}
+
+img{
+  width: 19.5em;
+}
+/* reduce image height */
+#img7{
+  height: 13em;
+}
+
+/* TYPOGRAPHY */
+h1{
+ line-height: 58.51px;
+  text-align: left;
+  color: var(--white);
+  font-size: 48px;
+  padding: 0 0.5em;
+}
+
+h2,{
+font-weight: 700;
+  font-size: 20px;
+  line-height: 24.38px;
+  letter-spacing: 0.15px;
+  color: var(--black);
+}
+p{
+  font-size: 16px;
+  line-height: 21.79px;
+  letter-spacing: 0.5px;
+  color: var(--blue);
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* active states */
+
+div > div:hover{
+  border: 2px solid var(--blue);
+}
+
+
+
+/* tablet layout */
+ @media only screen
+ and (min-width: 428px)
+ and (max-width:1024px)
+ and (orientation: landscape){
+ 
+  .container{
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 3em;
+   
+  }
+  .gallery{
+    margin: 5em;
+  }
+  
+.h1{
+  position: absolute;
+  top: 150px;
+  left: 30%;
+  transform: translate(-30%, -30%);
+  white-space: nowrap;
+}
+
+  div > div:hover{
+  border: 2px solid var(--yellow);
+}
+
+}
+
+/* desktop layout */
+
+  @media only screen and (min-width: 1024px){
+  .container{
+    grid-row-gap: 3em;
+    grid-template-columns: repeat(3, 1fr);
+  }
+   .gallery{
+    margin: 4.5em;
+  }
+  
+  .h1{
+  position: absolute;
+  top: 200px;
+  left: 10%;
+  transform: translate(-10%, -10%);
+  white-space: nowrap;
+}
+
+  }
