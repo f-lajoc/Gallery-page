@@ -85,10 +85,7 @@ div > div:hover{
 
 
 /* tablet layout */
- @media only screen
- and (min-width: 428px)
- and (max-width:1024px)
- and (orientation: landscape){
+ @media only screen and (min-width: 428px){
  
   .container{
     grid-template-columns: 1fr 1fr;
