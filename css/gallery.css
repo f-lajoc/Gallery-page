@@ -50,6 +50,10 @@
   margin: 0.5rem;
 }
 
+.gallery-card:hover{
+  border: 2px solid yellow;
+}
+
 .gallery-card-pic {
   display: flex;
   justify-content: center;
@@ -102,7 +106,10 @@ font-weight: 700;
     width: 31.5%;
     min-height: 18rem;
   }
-
+  
+ .gallery-card:hover{
+  border: 2px solid #145ef4;
+}
   .gallery-card-pic {
     display: flex;
     justify-content: center;
