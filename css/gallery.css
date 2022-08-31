@@ -123,7 +123,11 @@ font-weight: 700;
 }
 
 @media only screen and (max-width: 768px) {
-  .gallery-hero-section {
+  .gallery-main{
+  padding-bottom: 2em;
+}
+
+.gallery-hero-section {
     background-position: 30% 80%;
     background-size: 60rem;
     font-size: 2.3rem;
