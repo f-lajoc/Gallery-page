@@ -8,6 +8,7 @@
   width: 100%;
   min-height: 100vh;
   background-color: #f8f8f8;
+  padding-bottom: 4em;
 }
 
 .gallery-hero-section {
@@ -50,9 +51,6 @@
   margin: 0.5rem;
 }
 
-.gallery-card:hover{
-  border: 2px solid yellow;
-}
 
 .gallery-card-pic {
   display: flex;
@@ -108,7 +106,7 @@ font-weight: 700;
   }
   
  .gallery-card:hover{
-  border: 2px solid #145ef4;
+  border: 1px solid #145ef4;
 }
   .gallery-card-pic {
     display: flex;
