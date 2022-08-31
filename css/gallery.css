@@ -67,7 +67,7 @@
 }
 
 .gallery-texts {
-  padding: 0 0 0.4rem 0.5rem;
+  padding: 0 0 0.4rem 0;
 }
  
 .funmi_h2 a {
@@ -105,9 +105,6 @@ font-weight: 700;
     min-height: 18rem;
   }
   
- .gallery-card:hover{
-  border: 1px solid #145ef4;
-}
   .gallery-card-pic {
     display: flex;
     justify-content: center;
