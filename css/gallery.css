@@ -8,7 +8,7 @@
   width: 100%;
   min-height: 100vh;
   background-color: #f8f8f8;
-  padding-bottom: 4em;
+  padding: 5em 0 1.5em;
 }
 
 .gallery-hero-section {
@@ -51,6 +51,9 @@
   margin: 0.5rem;
 }
 
+.gallery-card:hover{
+  transform: scale(1.1);
+}
 
 .gallery-card-pic {
   display: flex;
@@ -67,7 +70,7 @@
 }
 
 .gallery-texts {
-  padding: 0 0 0.4rem 0;
+  padding: 0 0 0.4rem;
 }
  
 .funmi_h2 a {
@@ -99,6 +102,11 @@ font-weight: 700;
   height: 17rem;
 }
 
+footer{
+font: inherit;
+font-size: 62.5%;
+}
+
 @media only screen and (max-width: 1024px) {
   .gallery-card {
     width: 31.5%;
@@ -120,11 +128,11 @@ font-weight: 700;
 }
 
 @media only screen and (max-width: 768px) {
-  .gallery-main{
+.gallery-main{
   padding-bottom: 2em;
 }
 
-.gallery-hero-section {
+  .gallery-hero-section {
     background-position: 30% 80%;
     background-size: 60rem;
     font-size: 2.3rem;
