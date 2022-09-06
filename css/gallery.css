@@ -85,7 +85,7 @@ font-weight: 700;
   color: black;
 }
 
-.funmi_h2 a:hover, .funmi_p a:hover{
+.funmi_p a:hover{
   text-decoration: underline;
   
 }
