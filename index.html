@@ -4,59 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        rel="shortcut icon"
+        href="img/CrowdHeart icon.png"
+        type="image/x-icon"
+      />
+
+        <!-- AOS stylesheets========================= -->
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link rel="stylesheet" href="./css/gallery.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@600&display=swap" rel="stylesheet">
-    <title>Our Gallery</title>
+    <title>Gallery - CrowdHearts</title>
 </head>
 <body>
   
   <!-- navigation section -->
   
     <!-- header section -->
-     <div class="chinedu-header-section">
+    <div class="chinedu-header-section">
         <header class="chinedu-header">
-            <div class="container">
-                <nav class="chinedu-nav-bar">
-                    <a href="#" class="nav-brand"><img src="img/Crowdheart_logo.png" alt="logo"></a>
-                    <ul class="chinedu-nav-menu">
-                        <li class="chinedu-nav-item">
-                          <a href="#" class="chinedu-nav-link active">
-                            Home </a>
-                        </li>
-                        <li class="chinedu-nav-item">
-                          <a href="#" class="chinedu-nav-link">
-                            About us</a>
-                        </li>
-                        <li class="chinedu-nav-item">
-                          <a href="#" class="chinedu-nav-link">
-                            Event & News</a>
-                        </li>
-                        <li class="chinedu-nav-item">
-                          <a href="#" class=" chinedu-nav-link">
-                            Gallery</a>
-                        </li>
-                        <li class="chinedu-nav-item">
-                          <a href="#footer-content" class="chinedu-nav-link">
-                            Contact </a>
-                        </li>
-                        <a href="#"><button class="chinedu-login-button">
-                            Login
-                        </button></a>
-                    </ul>
-                    <div class="chinedu-hamburger">
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                    </div>
-                </nav>
-            </div>
+          <div class="container">
+            <nav class="chinedu-nav-bar">
+              <a href="index.html" class="nav-brand">
+                <img src="img/Crowdheart logo.png" alt="logo" />
+              </a>
+              <ul class="chinedu-nav-menu">
+                <li class="chinedu-nav-item">
+                  <a href="index.html" class="chinedu-nav-link">
+                    Home
+                  </a>
+                </li>
+                <li class="chinedu-nav-item">
+                  <a href="about.html" class="chinedu-nav-link">
+                    About us
+                  </a>
+                </li>
+                <li class="chinedu-nav-item">
+                  <a href="donation.html" class="chinedu-nav-link">
+                    Donate
+                  </a>
+                </li>
+                <li class="chinedu-nav-item">
+                  <a href="gallery.html" class="chinedu-nav-link active">
+                    Gallery
+                  </a>
+                </li>
+                <li class="chinedu-nav-item">
+                  <a href="contact.html" class="chinedu-nav-link">
+                    Contact
+                  </a>
+                </li>
+                <a href="login.html">
+                  <button class="chinedu-login-button">
+                    Login
+                  </button>
+                </a>
+              </ul>
+              <div class="chinedu-hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </div>
+            </nav>
+          </div>
         </header>
-    </div>
-    <script src="js/nav.js"></script>
+      </div>
   
   <!-- gallery section -->
   
@@ -67,7 +85,7 @@
 
         <section class="gallery-display">
             <div class="gallery-row">
-                <div class="gallery-card">
+                <div class="gallery-card" data-aos="slide-right">
                     <div class="gallery-card-pic">
                         <img src="img/gallery_a.jpg" alt="happy kids" class="fluid-state">
                     </div>
@@ -76,7 +94,7 @@
                         <p class="funmi_p"><a href="#">During our outreach in 2022</a></p>
                     </div>
                 </div>
-                <div class="gallery-card">
+                <div class="gallery-card" data-aos="slide-up">
                     <div class="gallery-card-pic">
                         <img src="img/gallery_b.jpg" alt="happy kids" class="fluid-state">
                     </div>
@@ -85,7 +103,7 @@
                         <p class="funmi_p"><a href="#">During our outreach in 2022</a></p>
                     </div>
                 </div>
-                <div class="gallery-card">
+                <div class="gallery-card" data-aos="slide-left">
                     <div class="gallery-card-pic">
                         <img src="img/gallery_c.jpg" alt="happy kids" class="fluid-state">
                     </div>
@@ -94,7 +112,7 @@
                         <p class="funmi_p"><a href="#">During our outreach in 2022</a></p>
                     </div>
                 </div>
-                <div class="gallery-card">
+                <div class="gallery-card" data-aos="slide-right">
                     <div class="gallery-card-pic">
                         <img src="img/gallery_d.jpg" alt="happy kids" class="fluid-state">
                     </div>
@@ -103,7 +121,7 @@
                         <p class="funmi_p"><a href="#">During our outreach in 2022</a></p>
                     </div>
                 </div>
-                <div class="gallery-card">
+                <div class="gallery-card"data-aos="slide-down">
                     <div class="gallery-card-pic">
                         <img src="img/gallery_e.jpg" alt="happy kids" class="fluid-state">
                     </div>
@@ -112,7 +130,7 @@
                         <p class="funmi_p"><a href="#">During our outreach in 2022</a></p>
                     </div>
                 </div>
-                <div class="gallery-card">
+                <div class="gallery-card" data-aos="slide-left">
                     <div class="gallery-card-pic">
                         <img src="img/gallery_f.jpg" alt="happy kids" class="fluid-state">
                     </div>
@@ -121,7 +139,7 @@
                         <p class="funmi_p"><a href="#">During our outreach in 2022</a></p>
                     </div>
                 </div>
-                <div class="gallery-card last">
+                <div class="gallery-card last" data-aos="slide-right">
                     <div class="gallery-card-pic">
                         <img src="img/gallery_g.png" alt="happy kids" class="fluid-state2">
                     </div>
@@ -130,7 +148,7 @@
                         <p class="funmi_p"><a href="#">During our outreach in 2022</a></p>
                     </div>
                 </div>
-                <div class="gallery-card">
+                <div class="gallery-card" data-aos="slide-up">
                     <div class="gallery-card-pic">
                         <img src="img/gallery_h.jpg" alt="happy kids" class="fluid-state">
                     </div>
@@ -139,7 +157,7 @@
                         <p class="funmi_p"><a href="#">During our outreach in 2022</a></p>
                     </div>
                 </div>
-                <div class="gallery-card">
+                <div class="gallery-card" data-aos="slide-left">
                     <div class="gallery-card-pic">
                         <img src="img/gallery_i.jpg" alt="happy kids" class="fluid-state">
                     </div>
@@ -178,13 +196,13 @@
                         <h2>Quick Links</h2>
                     </li>
                     <li class="footer-link">
-                        <a href="#">About us</a>
+                        <a href="about.html">About us</a>
                     </li>
                     <li class="footer-link">
-                        <a href="#">Event</a>
+                        <a href="donation.html">Donate</a>
                     </li>
                     <li class="footer-link"> 
-                        <a href="#">Gallery</a>
+                        <a href="gallery.html">Gallery</a>
                     </li>
 
                 </ul>
@@ -225,6 +243,17 @@
         </div>
      </footer>
     <!-- footer section ends -->
+     <script src="./js/nav.js"></script>
 
+     <!-- AOS script========================= -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init({
+        duration: 3000,
+        once: false,
+    });
+    
+    </script>
 </body>
 </html>
